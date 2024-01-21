@@ -283,7 +283,11 @@ nav {
 }
 
 .portfolio__card img {
-  transition: 0.5s;
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 .portfolio__card:hover img {
